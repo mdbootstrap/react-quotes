@@ -12,6 +12,8 @@ import SquareQuoteboxes from './squareQuoteboxes/SquareQuoteboxes';
 import Quoteboxes from './quoteboxes/Quoteboxes';
 import QuoteboxWithLikesCounter from './quoteboxWithLikesCounter/QuoteboxWithLikesCounter';
 import Grey from './grey/Grey';
+import ColorfulQuote from './colorfulQuote/ColorfulQuote';
+import BlockquoteWithAvatar from './blockquoteWithAvatar/BlockquoteWithAvatar';
 
 const container = document.getElementById("root");
 const root = createRoot(container);
@@ -29,6 +31,8 @@ root.render(
         <Route path="/quoteboxes" element={<Quoteboxes />} />
         <Route path="/quotebox-with-likes-counter" element={<QuoteboxWithLikesCounter />} />
         <Route path="/grey" element={<Grey />} />
+        <Route path="/colorful-quotes" element={<ColorfulQuote />} />
+        <Route path="/blockquote-with-avatar" element={<BlockquoteWithAvatar />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

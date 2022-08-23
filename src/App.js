@@ -6,44 +6,34 @@ export default function App() {
   return (
     <MDBContainer className="text-center">
       <Link to="/quote-carosuel">
-        <MDBBtn className="m-3">
-          Quote Carosuel
-        </MDBBtn>
+        <MDBBtn className="m-3">Quote Carosuel</MDBBtn>
       </Link>
       <Link to="/blockquote">
-        <MDBBtn className="m-3">
-          blockquote
-        </MDBBtn>
+        <MDBBtn className="m-3">blockquote</MDBBtn>
       </Link>
       <Link to="/blockquote-with-image">
-        <MDBBtn className="m-3">
-          blockquote with image
-        </MDBBtn>
+        <MDBBtn className="m-3">blockquote with image</MDBBtn>
       </Link>
       <Link to="/blockquote-with-icon">
-        <MDBBtn className="m-3">
-          blockquote with icon
-        </MDBBtn>
+        <MDBBtn className="m-3">blockquote with icon</MDBBtn>
       </Link>
       <Link to="/square-quoteboxes">
-        <MDBBtn className="m-3">
-          Square quoteboxes
-        </MDBBtn>
+        <MDBBtn className="m-3">Square quoteboxes</MDBBtn>
       </Link>
       <Link to="/quoteboxes">
-        <MDBBtn className="m-3">
-          quoteboxes
-        </MDBBtn>
+        <MDBBtn className="m-3">quoteboxes</MDBBtn>
       </Link>
       <Link to="/quotebox-with-likes-counter">
-        <MDBBtn className="m-3">
-          Quotebox with likes counter
-        </MDBBtn>
+        <MDBBtn className="m-3">Quotebox with likes counter</MDBBtn>
       </Link>
       <Link to="/grey">
-        <MDBBtn className="m-3">
-          Grey Quote
-        </MDBBtn>
+        <MDBBtn className="m-3">Grey Quote</MDBBtn>
+      </Link>
+      <Link to="/colorful-quotes">
+        <MDBBtn className="m-3">Colorful quote alerts</MDBBtn>
+      </Link>
+      <Link to="/blockquote-with-avatar">
+        <MDBBtn className="m-3">Quote with avatar</MDBBtn>
       </Link>
     </MDBContainer>
   );

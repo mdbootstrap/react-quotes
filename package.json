@@ -1,8 +1,7 @@
 {
-  "name": "mdb-react-template",
-  "version": "4.0.0",
-  "description": "template for mdb-react-ui-kit",
-  "private": true,
+  "name": "@mdbootstrap/react-quotes",
+  "version": "1.0.0",
+  "description": "Responsive React Quotes built with Bootstrap 5. HTML & CSS. Quote boxes with quote symbol, blockquotes, quote carousel slider, various quote styles with HTML & CSS.",
   "dependencies": {
     "mdb-react-ui-kit": "^4.0.0",
     "react": "^18.1.0",
@@ -18,6 +17,11 @@
     "eject": "react-scripts eject"
   },
   "keywords": [
+    "bootstrap",
+    "navigation",
+    "bootstrap5",
+    "responsive-design",
+    "bootstrap-template",
     "template",
     "react"
   ],
